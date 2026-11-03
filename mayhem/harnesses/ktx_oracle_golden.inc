@@ -1,0 +1,23 @@
+// Golden values for the files in mayhem/ktx_read_fuzzer/testsuite, produced by `ktx_oracle --dump`.
+static const Golden kGolden[] = {
+    {"alpha_simple_blze.ktx2", 2, 0, 8, 8, 1, 1, 1, 1, 3ull, 0xb994f14f4386dc45ull, 0x91b225bd29fbdf03ull},
+    {"conftestimage_R11_EAC.ktx", 1, 0, 64, 32, 1, 1, 1, 1, 1024ull, 0xd4f9cbfc6c81cfccull, 0x0ull},
+    {"conftestimage_RG11_EAC.ktx", 1, 0, 64, 32, 1, 1, 1, 1, 2048ull, 0x703ff7fb680974afull, 0x0ull},
+    {"etc1.ktx", 1, 0, 128, 128, 1, 1, 1, 1, 8192ull, 0xc8c6440fa0048867ull, 0x0ull},
+    {"etc2_rgba1.ktx", 1, 0, 128, 128, 1, 1, 1, 1, 8192ull, 0x60ed6c2fc321a806ull, 0x0ull},
+    {"etc2_rgba8.ktx", 1, 0, 128, 128, 1, 1, 1, 1, 16384ull, 0xda64b00a1ba3b61eull, 0x0ull},
+    {"hi_mark.ktx", 1, 0, 180, 94, 1, 1, 1, 1, 50760ull, 0x9e7a4ea8cec3089cull, 0x0ull},
+    {"invalid_blze_alpha_slice_missing.ktx2", 2, 0, 4, 4, 1, 1, 1, 1, 2ull, 0x9a624b00c542f975ull, 0x0ull},
+    {"invalid_zstd_level0_padding.ktx2", 2, 5, 241, 8, 1, 4, 1, 1, 160ull, 0x558dbfb8983616c9ull, 0x0ull},
+    {"kodim17_blze.ktx2", 2, 0, 512, 768, 1, 1, 1, 1, 45303ull, 0xd3ab97787be17b9ull, 0xc1500130178863d2ull},
+    {"ktx_document_blze.ktx2", 2, 0, 1024, 1024, 1, 11, 1, 1, 23175ull, 0xbbf649d2684bd950ull, 0xbdeccb892561f0bbull},
+    {"ktx_document_uastc_rdo_4_zstd_5.ktx2", 2, 0, 1024, 1024, 1, 11, 1, 1, 1398128ull, 0xa8641736cb103a44ull, 0xfea4a786846fb40cull},
+    {"r8g8b8_srgb_mip.ktx", 1, 0, 64, 64, 1, 7, 1, 1, 16388ull, 0x9c9e22c8044d5f9bull, 0x0ull},
+    {"r8g8b8_srgb_mip.ktx2", 2, 29, 64, 64, 1, 7, 1, 1, 16392ull, 0xf171e7491666490bull, 0x0ull},
+    {"r8g8b8a8_srgb_3d_7.ktx2", 2, 43, 16, 16, 7, 1, 1, 1, 7168ull, 0xaa90ad5ab697a783ull, 0x0ull},
+    {"r8g8b8a8_srgb_array_7_mip.ktx2", 2, 43, 16, 16, 1, 5, 7, 1, 9548ull, 0xc23226717cd00982ull, 0x0ull},
+    {"r8g8b8a8_srgb_mip.ktx2", 2, 43, 64, 64, 1, 7, 1, 1, 21844ull, 0xb57db649991b8132ull, 0x0ull},
+    {"r8g8b8a8_srgb_mip_astc.ktx2", 2, 158, 64, 64, 1, 7, 1, 1, 5488ull, 0xccfa4c9428c0c77eull, 0x0ull},
+    {"r8g8b8a8_srgb_mip_blze.ktx2", 2, 0, 64, 64, 1, 7, 1, 1, 35ull, 0xd66aa9aea0484d3eull, 0x40aa932884c85aa2ull},
+    {"r8g8b8a8_srgb_mip_etc2.ktx2", 2, 152, 64, 64, 1, 7, 1, 1, 5488ull, 0x56d256cd54af1e9full, 0x0ull},
+};

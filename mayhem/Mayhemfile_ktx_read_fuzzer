@@ -1,0 +1,10 @@
+project: savantenvs/ktx-software
+target: ktx_read_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/ktx_read_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/ktx_read_fuzzer
+    libfuzzer: true
+    dictionary: /mayhem/tests/fuzz/ktx.dict
+    timeout: 30
